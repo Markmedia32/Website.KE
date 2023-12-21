@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #d5be8b;
+    font-size: 14px;
+    font-family: 'Cinzel', sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 50px auto;
+}
+
+.contact-box {
+    background: #fff;
+    display: flex;
+    flex-wrap: wrap; /* Allow flex items to wrap onto multiple lines */
+}
+
+.contact-left {
+    flex-basis: 100%; /* Full width on small screens */
+    padding: 40px 20px; /* Adjust padding for smaller screens */
+}
+
+.contact-right {
+    flex-basis: 100%; /* Full width on small screens */
+    padding: 40px;
+    background: #000;
+    color: #fff;
+    margin-top: 20px; /* Separate from contact-left on smaller screens */
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+.container p {
+    margin-bottom: 20px; /* Reduce margin on smaller screens */
+}
+
+.input-row {
+    display: flex;
+    flex-wrap: wrap; /* Allow flex items to wrap onto multiple lines */
+    margin-bottom: 20px;
+}
+
+.input-row .input-group {
+    flex-basis: 100%; /* Full width on small screens */
+    margin-bottom: 10px; /* Separate groups on smaller screens */
+}
+
+input,
+textarea {
+    width: 100%;
+    box-sizing: border-box; /* Ensure padding and border are included in the width */
+}
+
+label {
+    margin-bottom: 6px;
+    display: block;
+    color: #d5be8b;
+}
+
+button {
+    background: #d5be8b;
+    width: 100%;
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 90px;
+    margin-top: 20px;
+}
+
+.contact-left h3 {
+    color: #d5be8b;
+    font-weight: 600;
+    margin-bottom: 10px; /* Reduce margin on smaller screens */
+}
+
+tr td:first-child {
+    padding-right: 10px; /* Adjust padding for smaller screens */
+}
+
+tr td {
+    padding-top: 10px; /* Adjust padding for smaller screens */
+}
+
+/* Media query for small screens */
+@media screen and (max-width: 768px) {
+    .contact-left,
+    .contact-right {
+        flex-basis: 100%; /* Full width on small screens */
+    }
+}

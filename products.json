@@ -1,0 +1,32 @@
+[
+    {
+        "id":1,
+        "name": "LD01|Plain T-shirt",
+        "price": 600,
+        "image": "images/Trial-1.png"
+    },
+    {
+        "id":2,
+        "name": "LD022|Plain T-shirt",
+        "price": 500,
+        "image": "images/Trial-2.png"
+    },
+    {
+        "id":3,
+        "name": " LDO3|CASUAL T-shirt",
+        "price": 650,
+        "image": "images/Trial-3.png"
+    },
+    {
+        "id":4,
+        "name": "LD04|CASUAL T-shirt",
+        "price": 700,
+        "image": "images/Trial-4.png"
+    },
+    {
+        "id":5,
+        "name": "LD05|CASUAL T-shirt",
+        "price": 800,
+        "image": "images/Trial-5.png"
+    }
+]
